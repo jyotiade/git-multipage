@@ -1,0 +1,894 @@
+/* =======================nav============================ */
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 124, 93);
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: black;
+    margin-top: 80px;
+    font-size: 20px;
+     margin: 50px;
+     margin-right: 60px;
+}
+
+#nav li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    margin-left:-50px;
+}
+
+#nav li img {
+    width: 100px;
+    height: 100px;
+   margin-right: 300px;
+    border-radius: 50%;
+    
+}
+
+#down {
+    margin-left: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+#down.hover {
+    background-color: lightcyan;
+    color: brown;
+}
+
+#up {
+    margin-left: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(59, 124, 93);
+    color: white;
+    width: 100px;
+}
+
+#up:hover {
+    background-color: lightcyan;
+    color: brown;
+}
+
+.label1 i{
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    float: right;
+    margin: 10px;
+    display: none;
+}
+.img1{
+    width: 80px;
+    margin: 20px;
+     border-radius: 50px;
+    display: none;
+
+}
+
+@media (max-width:412px) {
+    #nav{
+        display:none;
+    }
+    .img1{
+        display: block;
+    }
+    .label1 i{
+        display: block;
+    }
+    #input1:checked~#nav{
+        display: block;
+        background-color:rgb(132, 209, 182);
+        margin-right: 140px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+       margin-left: 10px;
+    }
+    #nav li a {
+        text-decoration: none;
+        color: black;
+        margin-top: 80px;
+        font-size: 20px;
+    }
+    
+    #nav li {
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px;
+    
+    }
+    
+    #nav li img {
+        width: 100px;
+        height: 100px;
+        margin-left: -400px;
+        border-radius: 50%;
+    }
+    
+    #down {
+        margin-left: 50px;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 20px;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+    }
+     
+    #down.hover {
+        background-color: lightcyan;
+        color: brown;
+    }
+    
+    #up {
+        margin-left: 50px;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 20px;
+        border-radius: 30px;
+        background-color: rgb(59, 124, 93);
+        color: white;
+        width: 100px;
+    }
+    
+    #up:hover {
+        background-color: lightcyan;
+        color: brown;
+    }
+ 
+}
+/* 
+========================landing================= */
+#landpage {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 124, 93);
+    border-top: 1px solid rgb(59, 124, 93);
+    /* padding-bottom: 200px; */
+   margin-top: -1000px;
+   padding-bottom: 100px;
+
+}
+
+#landpagediv1 {
+    margin-right: 20px;
+    margin-top: 600px;
+    color: azure;
+    margin-left: -50px;
+    padding-top: 600px;
+}
+
+#landpage img {
+    width: 600px;
+ 
+}
+
+#d1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+#d2{
+    margin-top: -400px;
+}
+#d2 img{
+    margin-left: 700px;
+    
+   
+}
+#p1 {
+    font-size: 20px;
+}
+
+
+
+#landpage a {
+    color: white;
+}
+
+
+@media (max-width:412px) {
+
+    #landpage {
+    display:block;
+    background-color: rgb(59, 124, 93);
+    border-top: 1px solid rgb(59, 124, 93);
+    margin-top: 10px;
+    }
+    #landpagediv1 {
+       padding-left: 100px;
+       margin-top: -400px;
+    }
+    
+    #landpage img {
+        width: 300px;
+       
+    }
+    
+    #d1 {
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+    
+    #p1 {
+        font-size: 20px;
+    }
+    
+   
+    
+    #landpage a {
+        color: white;
+    }
+    #d2{
+        margin-top: 20px;
+    }
+    #d2 img{
+
+        margin-left: 1px;
+        
+       
+    }
+}
+
+/* =================my craft========================== */
+#d3 {
+    margin-top: 250px;
+    margin-left: 80px;
+}
+
+#d3 div {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#d3 p {
+    font-size: 20px;
+}
+
+#i1 {
+    padding-bottom: 200px;
+}
+
+#d4 {
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: -300px;
+}
+
+#d4 div img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#u {
+    margin-left: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+    background-color: lightseagreen;
+    color: white;
+    width: 150px;
+    margin-top: 30px;
+}
+
+#u:hover {
+    background-color:lightcoral;
+    color:black;
+}
+
+@media (max-width:412px) {
+
+    #d4 {
+        display: block;
+        justify-content: center;
+        margin-left:10px;
+        margin-top: 100px;
+    }
+    
+    #d4 div img {
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+        border-radius: 50px 50px 50px 50px;
+    }
+    #u {
+    margin-left: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+    background-color: lightseagreen;
+    color: white;
+    width: 150px;
+    margin-top: 30px;
+}
+
+#u:hover {
+    background-color: rgb(229, 97, 161);
+    color: rgb(23, 13, 13);
+}
+}
+/* ===================================my choose=============================== */
+#div3 {
+    margin-bottom: 100px;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+#div3 div {
+    font-size: 30px;
+    color: black;
+}
+
+#div2 {
+    display: flex;
+    margin-left: 100px;
+}
+
+#i2 {
+    background-color: rgb(207, 200, 200);
+    padding-bottom: 90px;
+}
+
+#div2 div {
+    margin-bottom: 20px;
+}
+
+#div2 div div {
+    margin: 15px;
+}
+#i3{
+    margin-top: -540px;
+}
+#i3 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 900px
+}
+
+@media (max-width:412px) {
+    #div3 {
+        margin-bottom: 100px;
+        padding-top: 100px;
+        margin-left: 70px;
+    }
+    
+   
+    
+    #div2 {
+        display: block;
+        margin-left: 70px;
+    }
+  
+    #i3{
+        margin-top: 80px;
+        margin-left: -870px;
+    }
+    #i3 img {
+        width: 350px;
+        height: 400px;
+      
+    }
+    
+}
+/* =======================================modern======================== */
+#i4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+#div4 img {
+    width: 450px;
+    height: 450px;
+    margin-top: 100px;
+    padding-right: 300px;
+}
+
+#div5 {
+    margin: 20px;
+    margin-right: 20px;
+}
+
+#m1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50px 50px 50px 50px;
+    /* margin-top: -10px; */
+
+}
+
+#m2 img {
+    width: 300px;
+    height: 320px;
+    border-radius: 40px 40px 40px 40px;
+    margin-right: 600px;
+}
+
+#div6 {
+    margin: 10px;
+    margin-top: 160px;
+
+   
+}
+
+#div6 div {
+    margin: 20px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+#div6 p {
+    margin: 20px;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+#v {
+    margin-left: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+    background-color: lightseagreen;
+    color: white;
+    width: 150px;
+    margin-top: 30px;
+}
+
+#v:hover {
+    background-color:lightcoral;
+    color:black;
+}
+
+@media (max-width:412px) {
+    #i4 {
+        display: block;
+        /* justify-content: center; */
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-bottom: 0px;
+      
+    }
+    
+    #div4 img {
+        width: 320px;
+        height: 320px;
+        margin-top: 20px;
+        padding-right: 10px;
+        margin-left: 30px;
+        border-radius: 40px 40px 40px 40px;
+    }
+    
+    /* #div5 {
+        margin: 20px;
+        margin-right: 20px;
+    } */
+    
+    #m1 img {
+        width: 320px;
+        height: 320px;
+        border-radius: 50px 50px 50px 50px;
+       margin-top: -10px;
+       margin-left: 18px;
+     }
+
+     
+    
+     #m2 img {
+        width: 320px;
+        height: 320px;
+        border-radius: 40px 40px 40px 40px;
+        /* padding-right: 900px; */
+        margin-left: 20px;
+        margin-top: 18px;
+    } 
+     
+/*     
+   #div6 {
+        margin: 10px;
+        margin-top: -1800px;
+      
+       
+    } */
+     /* #div6 div {
+        margin: 20px;
+        font-size: 40px;
+        margin-left: 30px;
+    } */
+/*     
+    #div6 p {
+        margin: 20px;
+        font-size: 20px;
+        margin-left: 30px;
+        
+    } */
+    #v {
+        margin-left: 40px;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 20px;
+        border-radius: 30px;
+        background-color: lightseagreen;
+        color: white;
+        width: 150px;
+        margin-top: 30px;
+    }
+    
+    /* #v:hover {
+        background-color:lightcoral;
+        color:black;
+    } */
+}
+/* ================================test======================================= */
+#div7 {
+    margin-top: 200px;
+    background-color: rgb(207, 200, 200);
+
+}
+
+#div7 div {
+    padding-top: 150px;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+#div7 p {
+    font-size: 20px;
+}
+
+#m3 div {
+    font-size: 20px;
+    margin-top: -200px;
+    padding-bottom: 150px;
+}
+
+/* =======================blog========================== */
+#div8 {
+    margin-top: 100px;
+}
+
+#div9 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#div9 div img {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 0px 50px 0px 50px;
+}
+
+#div9 div {
+    margin-left: 60px;
+}
+
+#r1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+@media (max-width:412px) {
+
+    /* #div8 {
+    margin-top: 100px;
+} */
+  #div9 {
+    display: block;
+   
+    /* justify-content: center; */
+
+}
+
+#div9 div img {
+    width: 300px;
+    height: 300px;
+    /* margin-left: 10px; */
+    border-radius: 0px 50px 0px 50px;
+}
+
+#div9 div {
+    margin-left: 30px;
+    
+    margin-top: 60px;
+}
+#div9 div div{
+    margin-top: -1px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+/* #r1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+} */
+}
+/* ================================footer================= */
+#div10 {
+    display: flex;
+    justify-content: center;
+}
+
+#div10 div {
+    margin: 40px;
+}
+
+#f1 div {
+    /* margin-left: -60px; */
+    font-size: 30px;
+    /* padding-left: -900px; */
+  
+}
+
+#f1 p {
+    /* margin-left: -100px; */
+    padding-left: -900px;
+   
+}
+
+#div10 div ul {
+    margin-top: 100px;
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: 19px;
+}
+
+#div11 {
+    margin-left: 50px;
+}
+
+#sec1 {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-color: rgb(207, 200, 200);
+    padding-bottom: 100px;
+}
+
+#div11 input {
+    width: 300px;
+    height: 30px;
+    margin-left: 260px;
+}
+
+
+@media (max-width:412px) {
+
+    #div10 {
+    display: block;
+    /* justify-content: center; */
+}
+
+/* #div10 div {
+    margin: 40px;
+} */
+
+ #f1 div {
+   
+     font-size: 40px; 
+     padding-left: -900px; 
+   
+} 
+
+/* #f1 p {
+     /* margin-left: -100px; 
+     padding-left: -900px; */
+   
+
+#div10 div ul {
+    margin-top: 100px;
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: 19px;
+   
+}
+
+/* #div11 {
+    margin-left: 50px;
+} */
+
+ #sec1 {
+    margin-top: 100px;
+    padding-top: 100px;
+    /* padding-left: 100px; */
+    background-color: rgb(207, 200, 200);
+    padding-bottom: 100px;
+    margin-left: -100px;
+}
+
+#div11 input { 
+    width: 300px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+}
+/* =============shop==================== */
+#s1 {
+    background-color: rgb(59, 124, 93);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 60px;
+}
+
+#s2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 100px;
+
+}
+
+#s2 div div img {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 0px 50px 0px 50px;
+}
+
+@media (max-width:412px) {
+    #s2 {
+        display: block;
+        /* grid-template-columns: auto auto auto;
+        margin-top: 100px; */
+    
+    }   
+}
+/* ======================service======================= */
+#s3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 100px;
+}
+
+#s3 div {
+    margin: 20px;
+}
+
+@media (max-width:412px) {
+    #s3 {
+        display:block;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 100px;
+    }
+    
+}
+
+/* ======================contact======================== */
+#c1 {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 200px;
+}
+
+#c1 div div img {
+    width: 50px;
+    height: 50px;
+}
+
+#c1 div div {
+    margin: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+#div12 {
+    margin-top: 100px;
+
+}
+
+#div13 {
+    margin-left: 400px;
+}
+
+#div13 div input {
+    width: 600px;
+    height: 50px;
+}
+
+#div13 div {
+    margin: 10px;
+}
+
+#ui {
+    margin-left: 600px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+    background-color: lightseagreen;
+    color: white;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+@media (max-width:412px) {
+    
+    #c1 {
+        display: block;
+        justify-content: center;
+     padding-bottom: 100px;
+        margin-bottom: -800px;
+    }
+    #c1 div div img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #c1 div div {
+        margin: 30px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+    
+}
+/* =========================about====================== */
+#div14 {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#div14 div img {
+    width: 300px;
+    height: 300px;
+}
+
+#c2 center {
+    font-size: 50px;
+}
+
+#c2 {
+    margin-top: 100px;
+}
+
+#div14 div div {
+    font-size: 30px;
+}
+
+#div14 div span {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+@media (max-width:412px) {
+    #div14 {
+        display: block;
+      
+        /* margin-top: 100px;
+        margin-left: 20px; */
+    }
+    #div14 div img {
+        width: 300px;
+        height: 300px;
+        margin-top:80px;
+    }
+}
